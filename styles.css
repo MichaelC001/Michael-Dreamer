@@ -1,0 +1,37 @@
+body {
+  background-color powderblue;
+    font-family: " Consolas NF + LXGW WenKai Mono";
+    font-size: 40px;
+    src: url("font.ttf");
+}
+
+@font-face {
+    font-family: " Consolas NF + LXGW WenKai Mono";
+    src: url("font.ttf");
+}
+
+h1 {
+  color: blue;
+}
+div{
+  font-size: 30px;
+  font-family: " Consolas NF + LXGW WenKai Mono";
+  src: url("font.ttf");
+
+}
+
+.wrapper {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  gap: 10px;
+  font-family: " Consolas NF + LXGW WenKai Mono";
+  src: url("font.ttf");
+
+}
+
+.wrapper > div {
+  flex: 1;
+  font-family: " Consolas NF + LXGW WenKai Mono";
+  src: url("font.ttf");
+
